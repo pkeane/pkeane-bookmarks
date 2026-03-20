@@ -134,6 +134,8 @@ def build_html(bookmarks, style, title_prefix=''):
     sections = {}
     for b in bookmarks:
         sec = b['header_section'] or 'Uncategorized'
+        if sec.lower() == 'private':
+            continue
         if sec not in sections:
             sections[sec] = []
         sections[sec].append(b)
