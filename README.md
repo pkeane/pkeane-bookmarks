@@ -73,3 +73,7 @@ This project was built interactively with [Claude Code](https://claude.ai/claude
 12. Now I'd like the title to be configurable. By default, instead of `pkeane bookmarks` the title should be `bookmarks`. The user can specify a string that should appear before `bookmarks` by using a `-t` flag. Please add a help section to `generate.py` that will be shown when the user types `generate.py --help` that explains how to select a style and provide a title.
 
 13. Please create a `README.md` file that lists all of the prompts used to create this project.
+
+14. Update `generate.py` to NOT include any links in a section called "private" (case-insensitive).
+
+15. Please replace `README.md` to list all of the prompts used to create this project.
