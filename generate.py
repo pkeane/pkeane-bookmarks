@@ -392,10 +392,11 @@ def main():
             f.write(json.dumps(b) + '\n')
     print(f'Wrote {jsonl_path}')
 
-    html_path = os.path.join(SCRIPT_DIR, 'bookmarks.html')
+    html_path = os.path.join(SCRIPT_DIR, 'index.html')
     with open(html_path, 'w', encoding='utf-8') as f:
         f.write(build_html(bookmarks))
     print(f'Wrote {html_path}')
+
 
 
 if __name__ == '__main__':
