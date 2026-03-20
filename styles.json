@@ -1,0 +1,114 @@
+{
+  "styles": [
+    {
+      "name": "classic",
+      "description": "Navy and orange — the original look",
+      "fonts": {
+        "display": "Chango",
+        "body": "DM Sans",
+        "google_url": "https://fonts.googleapis.com/css2?family=Chango&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700&display=swap"
+      },
+      "colors": {
+        "header_bg":   "#14213D",
+        "accent":      "#FCA311",
+        "page_bg":     "#E8E8E8",
+        "surface":     "#FFFFFF",
+        "text":        "#14213D",
+        "link":        "#1e3a5f",
+        "link_hover":  "#1a56db",
+        "muted":       "#6b7280",
+        "header_text": "#FFFFFF",
+        "nav_text":    "#94a3b8",
+        "accent_text": "#14213D"
+      }
+    },
+    {
+      "name": "midnight",
+      "description": "Dark mode with soft purple accents",
+      "fonts": {
+        "display": "Space Grotesk",
+        "body": "Inter",
+        "google_url": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&display=swap"
+      },
+      "colors": {
+        "header_bg":   "#0f0f1a",
+        "accent":      "#a78bfa",
+        "page_bg":     "#1a1a2e",
+        "surface":     "#16213e",
+        "text":        "#e2e8f0",
+        "link":        "#a5b4fc",
+        "link_hover":  "#c4b5fd",
+        "muted":       "#64748b",
+        "header_text": "#e2e8f0",
+        "nav_text":    "#64748b",
+        "accent_text": "#0f0f1a"
+      }
+    },
+    {
+      "name": "forest",
+      "description": "Deep greens with serif headings",
+      "fonts": {
+        "display": "Playfair Display",
+        "body": "Source Sans 3",
+        "google_url": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+3:wght@400;600&display=swap"
+      },
+      "colors": {
+        "header_bg":   "#1a3320",
+        "accent":      "#6abf5e",
+        "page_bg":     "#eef2ee",
+        "surface":     "#ffffff",
+        "text":        "#1a3320",
+        "link":        "#2a5225",
+        "link_hover":  "#3d7a36",
+        "muted":       "#6b7c6b",
+        "header_text": "#e8f5e5",
+        "nav_text":    "#8aab84",
+        "accent_text": "#1a3320"
+      }
+    },
+    {
+      "name": "paper",
+      "description": "Warm sepia tones, newspaper feel",
+      "fonts": {
+        "display": "Libre Baskerville",
+        "body": "Lato",
+        "google_url": "https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Lato:wght@400;700&display=swap"
+      },
+      "colors": {
+        "header_bg":   "#2c1810",
+        "accent":      "#c0622f",
+        "page_bg":     "#f5efe6",
+        "surface":     "#fffdf7",
+        "text":        "#2c1810",
+        "link":        "#6b2d10",
+        "link_hover":  "#c0622f",
+        "muted":       "#8a7060",
+        "header_text": "#f5efe6",
+        "nav_text":    "#a08070",
+        "accent_text": "#fffdf7"
+      }
+    },
+    {
+      "name": "ocean",
+      "description": "Deep blue with bright teal accents",
+      "fonts": {
+        "display": "Outfit",
+        "body": "Nunito",
+        "google_url": "https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&family=Nunito:wght@400;600&display=swap"
+      },
+      "colors": {
+        "header_bg":   "#0d3349",
+        "accent":      "#0096c7",
+        "page_bg":     "#e3f4f8",
+        "surface":     "#ffffff",
+        "text":        "#0d3349",
+        "link":        "#0a4a6e",
+        "link_hover":  "#0096c7",
+        "muted":       "#5f8ea0",
+        "header_text": "#e3f4f8",
+        "nav_text":    "#7ab0c5",
+        "accent_text": "#ffffff"
+      }
+    }
+  ]
+}
