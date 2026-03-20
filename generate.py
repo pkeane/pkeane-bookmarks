@@ -94,7 +94,11 @@ def build_html(bookmarks):
         sections[sec].append(b)
 
     def sort_key(s):
-        return 'zzz' if s == 'Uncategorized' else s.lower()
+        if s == 'TOP':
+            return '   '  # sorts first
+        if s == 'Uncategorized':
+            return 'zzz'
+        return s.lower()
 
     sorted_sections = sorted(sections.keys(), key=sort_key)
 
